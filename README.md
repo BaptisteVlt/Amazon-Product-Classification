@@ -1,8 +1,8 @@
 # Amazon-Product-Classification
 
 ## How to run the application
-Clone the repo.
-Add the amz_products_small.jsonl in yoru directory.  
+Clone the repo.  
+Add the amz_products_small.jsonl in your directory.  
 
 Build the container to train the model :  
 docker build -t product-category-train -f Dockerfile.train .  
